@@ -1,0 +1,9 @@
+package ss3_java_overview;
+
+import org.w3c.dom.ls.LSOutput;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("ss3_java_overview.Hello, World!");
+    }
+}
