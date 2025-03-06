@@ -10,19 +10,19 @@ public class Tinhdiem {
         double diemToan = scanner.nextDouble();
 
         System.out.print("he so toan: ");
-        double hsToan = scanner.nextDouble();
+        int hsToan = scanner.nextInt();
 
         System.out.print("diem ly: ");
         double diemLy = scanner.nextDouble();
 
         System.out.print("he so ly: ");
-        double hsLy = scanner.nextDouble();
+        int hsLy = scanner.nextInt();
 
         System.out.print("diem hoa: ");
         double diemHoa = scanner.nextDouble();
 
         System.out.print("he so hoa: ");
-        double hsHoa = scanner.nextDouble();
+        int hsHoa = scanner.nextInt();
 
         double diemTB = (diemToan * hsToan + diemLy * hsLy + diemHoa * hsHoa) / (hsToan + hsLy + hsHoa);
 
