@@ -13,9 +13,9 @@ public class Dongia {
         int soLuong = scanner.nextInt();
 
         System.out.println("don gia: ");
-        double donGia = scanner.nextDouble();
+        int donGia = scanner.nextInt();
 
-        double tien = soLuong * donGia;
+        int tien = soLuong * donGia;
 
         double thueGTGT = 0.1 * tien;
 
