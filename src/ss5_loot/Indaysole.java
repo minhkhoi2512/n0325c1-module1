@@ -1,0 +1,10 @@
+package ss5_loot;
+
+import java.util.Scanner;
+
+public class Indaysole {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+    }
+}
